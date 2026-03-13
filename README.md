@@ -1,6 +1,6 @@
 # 🌾 FarmTech Solutions — Fase 5: Machine Learning na Cabeça
 
-> Projeto desenvolvido para a **Fase 5** do curso de **Tecnólogo em Inteligência Artificial** — FIAP 2025.
+> Projeto desenvolvido para a **Fase 5** do curso de **Tecnólogo em Inteligência Artificial** — FIAP 2026.
 >
 > **Disciplina:** Gestão do Agronegócio em Python
 
