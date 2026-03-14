@@ -11,9 +11,9 @@
 | Nome Completo | RM |
 |---|---|
 | Guilherme Pinheiro Carlsson Cury | RM564011 |
-| Guilherme Barbosa Mendes da Silva | RM567995 |
-| Cloves Silva Filho | RM567250 |
-| José Luiz de Oliveira Junior | RM567432 |
+| Murilo Ferreira Borges | RM567738 |
+| Guilherme da Nóbrega Gontijo | RM562211 |
+| Durval | RMXXXXXX |
 | Estevão Ferreira Santos | RM567522 |
 
 ---
