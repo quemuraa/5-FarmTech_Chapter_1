@@ -13,7 +13,7 @@
 | Guilherme Pinheiro Carlsson Cury | RM564011 |
 | Murilo Ferreira Borges | RM567738 |
 | Guilherme da Nóbrega Gontijo | RM562211 |
-| Durval | RMXXXXXX |
+| Durval de Oliveira Dorta Junior | RM567007 |
 | Estevão Ferreira Santos | RM567522 |
 
 ---
