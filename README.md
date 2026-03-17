@@ -1,94 +1,136 @@
+- Guilherme Pinheiro Carlsson Cury - RM564011
+
 # 🌾 FarmTech Solutions — Fase 5: Machine Learning na Cabeça
 
-> Projeto desenvolvido para a **Fase 5** do curso de **Tecnólogo em Inteligência Artificial** — FIAP 2026.
->
-> **Disciplina:** Gestão do Agronegócio em Python
+Projeto desenvolvido para a **Fase 5** do curso de **Tecnólogo em Inteligência Artificial** — FIAP 2026.
 
 ---
+
+## Nome do grupo : AI4Success
 
 ## 👥 Integrantes do Grupo
 
-| Nome Completo | RM |
-|---|---|
-| Guilherme Pinheiro Carlsson Cury | RM564011 |
-| Murilo Ferreira Borges | RM567738 |
-| Guilherme da Nóbrega Gontijo | RM562211 |
-| Durval de Oliveira Dorta Junior | RM567007 |
-| Estevão Ferreira Santos | RM567522 |
+- Murilo Ferreira Borges - RM567738
+- Guilherme Pinheiro Carlsson Cury - RM564011
+- Guilherme da Nobrega Gontijo - RM562211
+- Durval de O. Dorta Jr. - RM567007
+- Estevao Ferreira Santos - RM567522
 
----
+## 👩‍🏫 Professores:
 
-## 📖 Sobre o Projeto
+#### Tutor(a)
 
-A **FarmTech Solutions** é uma empresa que presta serviços de Inteligência Artificial para uma fazenda de médio porte (200 hectares) produtora de múltiplas culturas agrícolas. Neste projeto, analisamos uma base de dados contendo informações sobre condições de solo e clima, relacionadas com o rendimento de diferentes culturas.
+* Ana Cristina dos Santos
 
-O objetivo é prever o rendimento de safra por meio de modelos de regressão supervisionada e explorar tendências de produtividade usando técnicas de aprendizado não supervisionado (clusterização).
+#### Coordenador(a)
 
----
+* André Godoi Chiovato
 
-## 📂 Estrutura do Repositório
+## 📜 Descrição
 
+Analisar dados agricolas para prever rendimento de safras com Machine Learning,
+incluindo:
+
+- Analise exploratoria de dados (EDA)
+- Clusterizacao para tendencias e outliers
+- Regressao supervisionada com 5 modelos preditivos
+
+## 📁 Estrutura de pastas
+
+```text
+Fase_5_Colegas_Tarefa_1/
+|- README.md
+|- data/
+|  |- crop_yield.csv
+|- notebooks/
+   |- EstevaoFerreiraSantos_rm567522_pbl_fase5.ipynb
 ```
-📁 5-FarmTech_Chapter_1/
-├── 📄 README.md                          # Este arquivo
-├── 📁 data/
-│   └── 📄 crop_yield.csv                 # Dataset utilizado
-└── 📁 notebooks/
-    └── 📄 EstevaoFerreiraSantos_rm567522_pbl_fase5.ipynb   # Notebook Jupyter
+
+## Entrega 1 - Machine Learning
+
+Notebook principal:
+
+- `notebooks/EstevaoFerreiraSantos_rm567522_pbl_fase5.ipynb`
+
+Link direto no repositorio:
+
+- [`./notebooks/EstevaoFerreiraSantos_rm567522_pbl_fase5.ipynb`](./notebooks/EstevaoFerreiraSantos_rm567522_pbl_fase5.ipynb)
+
+Conteudo atual ja implementado no notebook:
+
+- EDA do dataset `crop_yield.csv`
+- Clusterizacao (KMeans) para perfis/tendencias
+- Deteccao de outliers (DBSCAN)
+- 5 modelos de regressao com comparacao por metricas
+- Conclusoes, pontos fortes e limitacoes em markdown
+
+Video da Entrega 1:
+
+- 🔴 `<span style="color: #d93025;"><strong>`PENDENTE `</strong>` - inserir link YouTube nao listado
+
+## Entrega 2 - AWS (em andamento)
+
+Comparacao de custos AWS solicitada no enunciado:
+
+- Regioes: Sao Paulo (BR) x Virginia do Norte (EUA)
+- Modo: On-Demand (100%)
+- Configuracao: 2 CPU, 1 GiB RAM, 5 Gbps rede, 50 GB armazenamento
+
+Status atual:
+
+- 🔴 `<span style="color: #d93025;"><strong>`PENDENTE `</strong>` - preencher tabela com valores calculados
+- 🔴 `<span style="color: #d93025;"><strong>`PENDENTE `</strong>` - justificar escolha final considerando restricao legal de dados
+- 🔴 `<span style="color: #d93025;"><strong>`PENDENTE `</strong>` - inserir imagens/graficos da calculadora AWS
+- 🔴 `<span style="color: #d93025;"><strong>`PENDENTE `</strong>` - inserir link do video da Entrega 2 (YouTube nao listado)
+
+Modelo de preenchimento rapido:
+
+| Item                              | Sao Paulo (BR)                                                   | Virginia do Norte (EUA)                                          | Status       |
+| --------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- | ------------ |
+| Custo mensal estimado             | `<span style="color: #d93025;"><strong>`PENDENTE `</strong>` | `<span style="color: #d93025;"><strong>`PENDENTE `</strong>` | 🔴 Em aberto |
+| Solucao mais barata               | `<span style="color: #d93025;"><strong>`PENDENTE `</strong>` | `<span style="color: #d93025;"><strong>`PENDENTE `</strong>` | 🔴 Em aberto |
+| Escolha final por restricao legal | `<span style="color: #d93025;"><strong>`PENDENTE `</strong>` | `<span style="color: #d93025;"><strong>`PENDENTE `</strong>` | 🔴 Em aberto |
+
+## 🔧 Como executar o código
+
+Pre-requisitos:
+
+- Python 3.10+
+- Jupyter Notebook (ou VS Code + extensao Jupyter)
+
+Passos:
+
+1. Criar e ativar ambiente virtual
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
 ```
 
----
+2. Instalar dependencias
 
-## 📓 Entrega 1 — Machine Learning
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
 
-### 🔗 Acesse o Notebook
+3. Abrir notebook
 
-O notebook Jupyter com toda a solução, código comentado e análises em markdown está disponível em:
+```bash
+jupyter notebook notebooks/EstevaoFerreiraSantos_rm567522_pbl_fase5.ipynb
+```
 
-👉 [`notebooks/EstevaoFerreiraSantos_rm567522_pbl_fase5.ipynb`](./notebooks/)
+## `<span style="color: #d93025;">`ATENCAO - Pendencias obrigatorias antes da entrega final
 
-### O que você encontrará no Notebook
+- 🔴 [ ] Inserir link do video da Entrega 1 no README
+- 🔴 [ ] Preencher comparacao completa de custos AWS (Entrega 2)
+- 🔴 [ ] Inserir justificativa tecnica da escolha final (latencia + restricao legal)
+- 🔴 [ ] Inserir imagens/graficos da calculadora AWS no README
+- 🔴 [ ] Inserir link do video da Entrega 2 no README
+- 🔴 [ ] Revisar padrao final de nome do notebook conforme orientacao oficial do professor
+- 🔴 [ ] Conferir se nao houve commit apos o prazo oficial de entrega
 
-1. **Análise Exploratória dos Dados (EDA):** familiarização com o dataset `crop_yield.csv`, estatísticas descritivas, visualizações e distribuições das variáveis.
-2. **Clusterização (Aprendizado Não Supervisionado):** identificação de tendências nos rendimentos das plantações e detecção de outliers usando algoritmos de clusterização.
-3. **Modelos Preditivos de Regressão:** cinco modelos com algoritmos distintos para prever o rendimento da safra, incluindo avaliação com métricas como R², MAE, RMSE e análise comparativa.
+## Licenca
 
-### 🎬 Vídeo Demonstrativo
+MODELO GIT FIAP por Fiap esta licenciado sob Attribution 4.0 International:
 
-📺 [Assistir no YouTube (não listado)](<!-- COLAR LINK DO VÍDEO AQUI -->)
-
-> Vídeo de até 5 minutos demonstrando o funcionamento do notebook e os resultados obtidos.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- Python 3.x
-- Jupyter Notebook
-- Pandas, NumPy, Matplotlib, Seaborn
-- Scikit-learn
-
----
-
-## 📋 Como Executar
-
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/quemuraa/5-FarmTech_Chapter_1.git]
-   ```
-
-2. Instale as dependências:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn
-   ```
-
-3. Abra o notebook:
-   ```bash
-   jupyter notebook notebooks/EstevaoFerreiraSantos_rm567522_pbl_fase5.ipynb
-   ```
-
----
-
-## 📜 Licença
-
-Projeto acadêmico desenvolvido para fins educacionais — FIAP 2025.
+- http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1
