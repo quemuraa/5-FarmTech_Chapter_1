@@ -68,7 +68,7 @@ Video da Entrega 1:
 
 - (https://youtu.be/Bt7wXpwRs7Q)
 
-## Entrega 2 - AWS (em andamento)
+## Entrega 2 - AWS
 
 Comparacao de custos AWS solicitada no enunciado:
 
