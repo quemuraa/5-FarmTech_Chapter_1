@@ -66,7 +66,7 @@ Conteudo atual ja implementado no notebook:
 
 Video da Entrega 1:
 
-- 🔴 `<span style="color: #d93025;"><strong>`PENDENTE `</strong>` - inserir link YouTube nao listado
+- (https://youtu.be/Bt7wXpwRs7Q)
 
 ## Entrega 2 - AWS (em andamento)
 
