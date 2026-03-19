@@ -68,56 +68,6 @@ Video da Entrega 1:
 
 - (https://youtu.be/Bt7wXpwRs7Q)
 
-## Entrega 2 - AWS
-
-Comparacao de custos AWS solicitada no enunciado:
-
-- Regioes: Sao Paulo (BR) x Virginia do Norte (EUA)
-- Modo: On-Demand (100%)
-- Configuracao: 2 CPU, 1 GiB RAM, 5 Gbps rede, 50 GB armazenamento
-
-Status atual:
-
-- 🔴 <span style="color: #d93025;"><strong>Feito </strong> - preencher tabela com valores calculados
-- 🔴 <span style="color: #d93025;"><strong>Feito </strong> - justificar escolha final considerando restricao legal de dados
-- 🔴 <span style="color: #d93025;"><strong>Feito </strong> - inserir imagens/graficos da calculadora AWS
-- 🔴 <span style="color: #d93025;"><strong>Feito </strong> - inserir link do video da Entrega 2 (YouTube nao listado)
-
-Modelo de preenchimento rapido:
-
-| Item                              | Sao Paulo (BR)                                                   | Virginia do Norte (EUA)                                          |
-| --------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- | 
-| Custo mensal estimado             | <span style="color: #d93025;"><strong>19.28 USD p/month </strong> | <span style="color: #d93025;"><strong>11.13 USD p/month </strong> | 🔴 Em aberto |
-| Solucao mais barata               | <span style="color: #d93025;"><strong>NÃO </strong> | <span style="color: #d93025;"><strong>SIM </strong> | 🔴 Em aberto |
-| Escolha final por restricao legal | <span style="color: #d93025;"><strong>SIM </strong> | <span style="color: #d93025;"><strong>NÃO </strong> | 🔴 Em aberto |
-
-## Justificativa
-
-A aplicação utiliza dados provenientes de sensores ambientais, que podem estar relacionados a informações como localização, propriedade e produção agrícola. Dessa forma, o tratamento desses dados exige atenção quanto à conformidade legal.
-
-Ao optar pela região de São Paulo (Brasil), garantimos maior aderência à Lei Geral de Proteção de Dados (LGPD), evitando a necessidade de transferência internacional de dados e reduzindo a complexidade de requisitos legais associados ao armazenamento em outros países.
-
-Além disso, a escolha da região nacional proporciona menor latência na comunicação entre os sensores e a API. Em cenários internacionais, como na região da Virgínia (EUA), a latência pode variar aproximadamente entre 100 ms e 180 ms, enquanto em território nacional tende a ser significativamente menor, melhorando o tempo de resposta da aplicação.
-
-Outro ponto relevante é a disponibilidade e estabilidade da conexão. Ao utilizar uma infraestrutura localizada no Brasil, reduz-se a dependência de rotas internacionais, que podem estar mais sujeitas a instabilidades, aumentando assim a confiabilidade do sistema.Portanto, mesmo com um custo superior, a região de São Paulo se mostra a escolha mais adequada, priorizando conformidade legal, desempenho e confiabilidade da solução.
-
-## Imagens das Instâncias
-
-### São Paulo
-<img width="1600" height="437" alt="image" src="https://github.com/user-attachments/assets/c0645c58-73ef-4995-9bc9-59de9b24c755" />
-<img width="1600" height="334" alt="image" src="https://github.com/user-attachments/assets/521369d9-b7ce-428e-936a-68d93bcdf625" />
-<img width="381" height="99" alt="image" src="https://github.com/user-attachments/assets/03895e9a-6e0a-45f1-835c-1688cf888bb8" />
-<img width="1600" height="453" alt="image" src="https://github.com/user-attachments/assets/7bbef1bc-cb1d-4b67-a1e9-8453df012ad9" />
-
-### Norte da Virgínia
-<img width="1600" height="519" alt="image" src="https://github.com/user-attachments/assets/a3e4d666-ac95-4e95-a774-9a431f84f48e" />
-<img width="1600" height="469" alt="image" src="https://github.com/user-attachments/assets/53c3d559-933b-47b6-8ab5-8a21923d32dc" />
-<img width="1600" height="674" alt="image" src="https://github.com/user-attachments/assets/fbb0c6a2-5f21-4670-b088-a6f16c055eee" />
-<img width="1084" height="498" alt="image" src="https://github.com/user-attachments/assets/b8aff5f4-bf35-48a8-b9a7-59f82bbaef85" />
-
-Video da Entrega 2:
-
-- (https://www.youtube.com/watch?v=8aw4_MhTSA0)
 
 ## 🔧 Como executar o código
 
@@ -146,6 +96,60 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 ```bash
 jupyter notebook notebooks/EstevaoFerreiraSantos_rm567522_pbl_fase5.ipynb
 ```
+
+
+## Entrega 2 - AWS
+
+Comparacao de custos AWS solicitada no enunciado:
+
+- Regioes: Sao Paulo (BR) x Virginia do Norte (EUA)
+- Modo: On-Demand (100%)
+- Configuracao: 2 CPU, 1 GiB RAM, 5 Gbps rede, 50 GB armazenamento
+
+Status atual:
+
+- 🔴 `<span style="color: #d93025;"><strong>`Feito `</strong>` - preencher tabela com valores calculados
+- 🔴 `<span style="color: #d93025;"><strong>`Feito `</strong>` - justificar escolha final considerando restricao legal de dados
+- 🔴 `<span style="color: #d93025;"><strong>`Feito `</strong>` - inserir imagens/graficos da calculadora AWS
+- 🔴 `<span style="color: #d93025;"><strong>`Feito `</strong>` - inserir link do video da Entrega 2 (YouTube nao listado)
+
+Modelo de preenchimento rapido:
+
+| Item                              | Sao Paulo (BR)                                                            | Virginia do Norte (EUA)                                                   |
+| --------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Custo mensal estimado             | `<span style="color: #d93025;"><strong>`19.28 USD p/month `</strong>` | `<span style="color: #d93025;"><strong>`11.13 USD p/month `</strong>` |
+| Solucao mais barata               | `<span style="color: #d93025;"><strong>`NÃO `</strong>`              | `<span style="color: #d93025;"><strong>`SIM `</strong>`               |
+| Escolha final por restricao legal | `<span style="color: #d93025;"><strong>`SIM `</strong>`               | `<span style="color: #d93025;"><strong>`NÃO `</strong>`              |
+
+## Justificativa
+
+A aplicação utiliza dados provenientes de sensores ambientais, que podem estar relacionados a informações como localização, propriedade e produção agrícola. Dessa forma, o tratamento desses dados exige atenção quanto à conformidade legal.
+
+Ao optar pela região de São Paulo (Brasil), garantimos maior aderência à Lei Geral de Proteção de Dados (LGPD), evitando a necessidade de transferência internacional de dados e reduzindo a complexidade de requisitos legais associados ao armazenamento em outros países.
+
+Além disso, a escolha da região nacional proporciona menor latência na comunicação entre os sensores e a API. Em cenários internacionais, como na região da Virgínia (EUA), a latência pode variar aproximadamente entre 100 ms e 180 ms, enquanto em território nacional tende a ser significativamente menor, melhorando o tempo de resposta da aplicação.
+
+Outro ponto relevante é a disponibilidade e estabilidade da conexão. Ao utilizar uma infraestrutura localizada no Brasil, reduz-se a dependência de rotas internacionais, que podem estar mais sujeitas a instabilidades, aumentando assim a confiabilidade do sistema.Portanto, mesmo com um custo superior, a região de São Paulo se mostra a escolha mais adequada, priorizando conformidade legal, desempenho e confiabilidade da solução.
+
+## Imagens das Instâncias
+
+### São Paulo
+
+<img width="1600" height="437" alt="image" src="https://github.com/user-attachments/assets/c0645c58-73ef-4995-9bc9-59de9b24c755" />
+<img width="1600" height="334" alt="image" src="https://github.com/user-attachments/assets/521369d9-b7ce-428e-936a-68d93bcdf625" />
+<img width="381" height="99" alt="image" src="https://github.com/user-attachments/assets/03895e9a-6e0a-45f1-835c-1688cf888bb8" />
+<img width="1600" height="453" alt="image" src="https://github.com/user-attachments/assets/7bbef1bc-cb1d-4b67-a1e9-8453df012ad9" />
+
+### Norte da Virgínia
+
+<img width="1600" height="519" alt="image" src="https://github.com/user-attachments/assets/a3e4d666-ac95-4e95-a774-9a431f84f48e" />
+<img width="1600" height="469" alt="image" src="https://github.com/user-attachments/assets/53c3d559-933b-47b6-8ab5-8a21923d32dc" />
+<img width="1600" height="674" alt="image" src="https://github.com/user-attachments/assets/fbb0c6a2-5f21-4670-b088-a6f16c055eee" />
+<img width="1084" height="498" alt="image" src="https://github.com/user-attachments/assets/b8aff5f4-bf35-48a8-b9a7-59f82bbaef85" />
+
+Video da Entrega 2:
+
+- (https://www.youtube.com/watch?v=8aw4_MhTSA0)
 
 ## `<span style="color: #d93025;">`ATENCAO - Pendencias obrigatorias antes da entrega final
 
