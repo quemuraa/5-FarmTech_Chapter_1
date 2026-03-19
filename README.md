@@ -108,18 +108,18 @@ Comparacao de custos AWS solicitada no enunciado:
 
 Status atual:
 
-- 🔴 `<span style="color: #d93025;"><strong>`Feito `</strong>` - preencher tabela com valores calculados
-- 🔴 `<span style="color: #d93025;"><strong>`Feito `</strong>` - justificar escolha final considerando restricao legal de dados
-- 🔴 `<span style="color: #d93025;"><strong>`Feito `</strong>` - inserir imagens/graficos da calculadora AWS
-- 🔴 `<span style="color: #d93025;"><strong>`Feito `</strong>` - inserir link do video da Entrega 2 (YouTube nao listado)
+- 🔴 **Feito** - preencher tabela com valores calculados
+- 🔴 **Feito** - justificar escolha final considerando restricao legal de dados
+- 🔴 **Feito** - inserir imagens/graficos da calculadora AWS
+- 🔴 **Feito** - inserir link do video da Entrega 2 (YouTube nao listado)
 
 Modelo de preenchimento rapido:
 
-| Item                              | Sao Paulo (BR)                                                            | Virginia do Norte (EUA)                                                   |
-| --------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| Custo mensal estimado             | `<span style="color: #d93025;"><strong>`19.28 USD p/month `</strong>` | `<span style="color: #d93025;"><strong>`11.13 USD p/month `</strong>` |
-| Solucao mais barata               | `<span style="color: #d93025;"><strong>`NÃO `</strong>`              | `<span style="color: #d93025;"><strong>`SIM `</strong>`               |
-| Escolha final por restricao legal | `<span style="color: #d93025;"><strong>`SIM `</strong>`               | `<span style="color: #d93025;"><strong>`NÃO `</strong>`              |
+| Item                              | Sao Paulo (BR)          | Virginia do Norte (EUA) |
+| --------------------------------- | ----------------------- | ------------------------ |
+| Custo mensal estimado             | **19.28 USD p/month**   | **11.13 USD p/month**    |
+| Solucao mais barata               | **NÃO**                 | **SIM**                  |
+| Escolha final por restricao legal | **SIM**                 | **NÃO**                  |
 
 ## Justificativa
 
@@ -151,7 +151,7 @@ Video da Entrega 2:
 
 - (https://www.youtube.com/watch?v=8aw4_MhTSA0)
 
-## `<span style="color: #d93025;">`ATENCAO - Pendencias obrigatorias antes da entrega final
+## ATENCAO - Pendencias obrigatorias antes da entrega final
 
 - 🔴 [ ] Inserir link do video da Entrega 1 no README
 - 🔴 [X] Preencher comparacao completa de custos AWS (Entrega 2)
