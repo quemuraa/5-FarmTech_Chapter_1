@@ -68,7 +68,6 @@ Video da Entrega 1:
 
 - (https://youtu.be/Bt7wXpwRs7Q)
 
-
 ## 🔧 Como executar o código
 
 Pre-requisitos:
@@ -97,7 +96,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 jupyter notebook notebooks/EstevaoFerreiraSantos_rm567522_pbl_fase5.ipynb
 ```
 
-
 ## Entrega 2 - AWS
 
 Comparacao de custos AWS solicitada no enunciado:
@@ -115,11 +113,11 @@ Status atual:
 
 Modelo de preenchimento rapido:
 
-| Item                              | Sao Paulo (BR)          | Virginia do Norte (EUA) |
-| --------------------------------- | ----------------------- | ------------------------ |
-| Custo mensal estimado             | **19.28 USD p/month**   | **11.13 USD p/month**    |
-| Solucao mais barata               | **NÃO**                 | **SIM**                  |
-| Escolha final por restricao legal | **SIM**                 | **NÃO**                  |
+| Item                              | Sao Paulo (BR)              | Virginia do Norte (EUA)     |
+| --------------------------------- | --------------------------- | --------------------------- |
+| Custo mensal estimado             | **19.28 USD p/month** | **11.13 USD p/month** |
+| Solucao mais barata               | **NÃO**              | **SIM**               |
+| Escolha final por restricao legal | **SIM**               | **NÃO**              |
 
 ## Justificativa
 
@@ -153,13 +151,13 @@ Video da Entrega 2:
 
 ## ATENCAO - Pendencias obrigatorias antes da entrega final
 
-- 🔴 [ ] Inserir link do video da Entrega 1 no README
+- 🔴 [ X] Inserir link do video da Entrega 1 no README
 - 🔴 [X] Preencher comparacao completa de custos AWS (Entrega 2)
 - 🔴 [X] Inserir justificativa tecnica da escolha final (latencia + restricao legal)
 - 🔴 [X] Inserir imagens/graficos da calculadora AWS no README
 - 🔴 [X] Inserir link do video da Entrega 2 no README
-- 🔴 [ ] Revisar padrao final de nome do notebook conforme orientacao oficial do professor
-- 🔴 [ ] Conferir se nao houve commit apos o prazo oficial de entrega
+- 🔴 [X ] Revisar padrao final de nome do notebook conforme orientacao oficial do professor
+- 🔴 [X ] Conferir se nao houve commit apos o prazo oficial de entrega
 
 ## Licenca
 
